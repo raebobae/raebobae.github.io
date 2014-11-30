@@ -1,0 +1,161 @@
+/*CSS for MAINPAGE starts here:*/
+
+#title img {
+    /*position: center;
+    float: center;
+    x: width / 2;*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    max-width: 1000px;
+}
+#title img:hover {
+    opacity: 0.5;
+}
+
+#background {
+    /* position: relative; */
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: -7px;
+}
+#name img {
+    position: relative;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    padding-left: 300px;
+    z-index: 200;
+    margin-top: 250px;
+}
+#background img {
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#title {
+    top: 0px;
+    width: 100%;
+    background: black;
+    height: 130px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 10;
+}
+#links {
+    position: relative;
+    margin-top: 500px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#leftlink {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+#rightlink {
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+#poster {
+    z-index: 10000;
+    color:white;
+    font-family: 'Merriweather', serif;
+    background: gray;
+    opacity: 0.8;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
+/* CSS for PORTFOLIO page starts here */
+body {
+    background: #000000;
+}
+#ptitle {
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 80px;
+    z-index: 3000;
+    position: relative;
+    height: 80px;
+    width: 100px;    
+}
+.work {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+.work img {
+    display: inline-block;
+    padding:20px;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 25px;
+}
+.work img:hover {
+    opacity: 0.5;
+}
+
+/* CSS for ABOUT starts here */
+#dessie {
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+#dessie img {
+    max-width: 650px;
+    max-height: 650px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+#atitle {
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 80px;
+    z-index: 3000;
+    position: relative;
+    display:  inline-block;
+}
+#abouttext {
+    border: 5px solid white;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 15px;
+    float: right;
+    display: inline-block;
+    max-width: 480px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+#paragraphtext {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 15px;
+    float: right;
+    display: inline-block;
+}
+
+/* jQuery Manipulation Classes*/
+
